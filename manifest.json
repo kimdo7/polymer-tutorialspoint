@@ -1,0 +1,6 @@
+{
+  "name": "tuoritalspoint",
+  "short_name": "tuoritalspoint",
+  "start_url": "/",
+  "display": "standalone"
+}
