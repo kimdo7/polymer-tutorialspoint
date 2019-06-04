@@ -1,0 +1,47 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="tuoritalspoint-app">
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+        </style>
+        <h2>Hello [[prop1]]!</h2>
+    </template>
+
+    <script>/**
+ * @customElement
+ * @polymer
+ */
+var TuoritalspointApp =
+/*#__PURE__*/
+function (_Polymer$Element) {
+  babelHelpers.inherits(TuoritalspointApp, _Polymer$Element);
+
+  function TuoritalspointApp() {
+    babelHelpers.classCallCheck(this, TuoritalspointApp);
+    return babelHelpers.possibleConstructorReturn(this, babelHelpers.getPrototypeOf(TuoritalspointApp).apply(this, arguments));
+  }
+
+  babelHelpers.createClass(TuoritalspointApp, null, [{
+    key: "is",
+    get: function get() {
+      return 'tuoritalspoint-app';
+    }
+  }, {
+    key: "properties",
+    get: function get() {
+      return {
+        prop1: {
+          type: String,
+          value: 'There '
+        }
+      };
+    }
+  }]);
+  return TuoritalspointApp;
+}(Polymer.Element);
+
+window.customElements.define(TuoritalspointApp.is, TuoritalspointApp);</script>
+</dom-module>

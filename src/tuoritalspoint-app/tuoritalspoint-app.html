@@ -1,32 +1,32 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 
 <dom-module id="tuoritalspoint-app">
-  <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    <h2>Hello [[prop1]]!</h2>
-  </template>
+    <template>
+        <style>
+            :host {
+                display: block;
+            }
+        </style>
+        <h2>Hello [[prop1]]!</h2>
+    </template>
 
-  <script>
-    /**
-     * @customElement
-     * @polymer
-     */
-    class TuoritalspointApp extends Polymer.Element {
-      static get is() { return 'tuoritalspoint-app'; }
-      static get properties() {
-        return {
-          prop1: {
-            type: String,
-            value: 'tuoritalspoint-app'
-          }
-        };
-      }
-    }
+    <script>
+        /**
+         * @customElement
+         * @polymer
+         */
+        class TuoritalspointApp extends Polymer.Element {
+            static get is() { return 'tuoritalspoint-app'; }
+            static get properties() {
+                return {
+                    prop1: {
+                        type: String,
+                        value: 'There '
+                    }
+                };
+            }
+        }
 
-    window.customElements.define(TuoritalspointApp.is, TuoritalspointApp);
-  </script>
+        window.customElements.define(TuoritalspointApp.is, TuoritalspointApp);
+    </script>
 </dom-module>
